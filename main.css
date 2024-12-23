@@ -1,0 +1,165 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("pexels-huy-phan-316220-1383775.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008C76;
+    padding: 10px;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.card .read.more:hover {
+    font-size: 14px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    border: 1px solid #161515;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+    margin: 10px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#image {
+    position: absolute;
+    top: 80%;
+    left: 50%; /* تغيير الاتجاه إلى اليسار */
+    z-index: 999;
+}
+
+#image img {
+    height: 600px;
+    max-width: 100%;
+}
+
+.card.malab {
+    background-image: url("pexels-srijonism-12537022.jpg");
+    font-size: 200px;
+}
+
+.card.mubarat {
+    background-image: url("pexels-anhleephoto-29631856.jpg");
+    font-size: 200px;
+}
+
+.card.fanadeq {
+    background-image: url("pexels-jimbear-1458457.jpg");
+    font-size: 200px;
+}
+
+.card.naql {
+    background-image: url("pexels-donaldtong94-28614.jpg");
+    font-size: 200px;
+}
+
+.card-body h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color: #161717;
+    text-decoration: underline;
+}
+
+.navbar {
+    background: linear-gradient(to right, #0e4b3a, #0e4b3a);
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar strong {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.navbar .list-inline {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .list-inline-item {
+    margin: 0 10px;
+}
+
+.navbar .list-inline-item i {
+    font-size: 24px;
+    color: #130303;
+    transition: color 0.3s ease;
+}
+
+.navbar .list-inline-item i:hover {
+    color: #3edd8d;
+}
+
+.navbar .buy-tickets {
+    background-color: #000500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .buy-tickets:hover {
+    background-color: #3edd8d;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
